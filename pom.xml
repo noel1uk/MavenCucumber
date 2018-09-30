@@ -86,17 +86,6 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
             <version>4.12</version>
         </dependency>
         <dependency>
@@ -105,6 +94,38 @@
             <version>1.2.5</version>
             <scope>compile</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.14.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.openqa.selenium.webdriver/webdriver-common -->
+        <!-- https://mvnrepository.com/artifact/org.openqa.selenium/selenium -->
+        <dependency>
+            <groupId>org.openqa.selenium</groupId>
+            <artifactId>selenium</artifactId>
+            <!--<version>0.8.1</version>-->
+            <type>pom</type>
+        </dependency>
+
+        <dependency>
+            <groupId>org.openqa.selenium.webdriver</groupId>
+            <artifactId>webdriver-common</artifactId>
+            <!--<version>0.6.685</version>-->
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-api</artifactId>
+            <version>3.12.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.8.1</version>
+        </dependency>
+
 
     </dependencies>
 
